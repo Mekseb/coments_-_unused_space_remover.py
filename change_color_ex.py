@@ -32,6 +32,6 @@ def colorchange():
 btn=Button(fen1,text = "click me!",command=drowline , font=( "arial",16))
 btn.pack(padx=10,pady=10)
 
-btn2= Button(fen1,text = "color-change",command=colorchange, font=( "arial",16))
+btn2= Button(fen1,text = "color-changer",command=colorchange, font=( "arial",16))
 btn2.pack(side=LEFT)
 fen1.mainloop()
